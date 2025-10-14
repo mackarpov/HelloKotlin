@@ -1,5 +1,3 @@
-package ru.netology
-
 fun main() {
 
     val itemPrice = 100
