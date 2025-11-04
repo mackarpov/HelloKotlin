@@ -6,11 +6,11 @@ import org.junit.Test
 class MainKtTest {
 
     @Test
-    fun calculatePriceShouldNotAdd() {
+    fun calculatePriceShouldNotAddDiscount() {
         val itemPrice = 100
         val itemCount = 1
         val discount = 10
-        val discountStart = 1000
+        val discountStart = 1_000
         val level = "gold"
 
         val result = calculatePrice(itemCount, itemPrice, discount, discountStart, level)
